@@ -10,7 +10,10 @@ class Favorite_Movie():
         '5 short stories of Hong Kong after ten years',
         'https://cdn.thestandnews.com/media/photos/cache/C2ABE58D81E5B9B4C2BB2020TEN20YEARS202012376056_562681027217993_303987522533359407_n_1024_xnYjN_1200x0.jpg',
         'https://www.youtube.com/watch?v=M4zebygSaZE'),
-        
+        ('Spotlight',
+        'The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.',
+        'http://i1.wp.com/teaser-trailer.com/wp-content/uploads/Spotlight-Poster-1.jpg',
+        'https://www.youtube.com/watch?v=tb_WgKDqPsE'),
         ]
     def get_favorite_movies(self):
         return self.movies
