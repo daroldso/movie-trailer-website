@@ -51,6 +51,7 @@ class Favorite_Movie():
         'http://straypoetry.com/wp-content/uploads/2012/03/MPW-15376.jpeg',
         'https://www.youtube.com/watch?v=dMSvKpVwavk', '2001'),
         ]
+
     def get_favorite_movies(self):
         return self.movies
 
