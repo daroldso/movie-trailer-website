@@ -1,4 +1,5 @@
 # Movie Trailer Website
+This is the Project 1 of Full Stack Web Developer Nanodegree by Udacity
 
 ## Installation
 To see the movie trailer website, clone this project and run
