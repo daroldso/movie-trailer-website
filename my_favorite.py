@@ -53,3 +53,10 @@ class Favorite_Movie():
         ]
     def get_favorite_movies(self):
         return self.movies
+
+    def get_favorite_movies_by_year(self, year):
+        result = []
+        for movie in self.movies:
+            if year in movie[4]:
+                result.append(movie)
+        return result

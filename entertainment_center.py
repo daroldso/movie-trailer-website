@@ -2,7 +2,7 @@ import media
 import my_favorite
 import fresh_tomatoes
 
-favorite_movies = my_favorite.Favorite_Movie().get_favorite_movies()
+favorite_movies = my_favorite.Favorite_Movie().get_favorite_movies_by_year('2001')
 movies = []
 
 for movie in favorite_movies:
